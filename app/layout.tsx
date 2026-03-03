@@ -2,9 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "小龙虾 | 你的个人 AI 助手",
+  title: "小龙虾OpenClaw | 你的个人 AI 助手",
   description:
     "小龙虾首页，基于 Next.js 16、Tailwind、shadcn、Drizzle 与 PostgreSQL 构建。",
+  icons: {
+    icon: "/lobster.svg",
+    shortcut: "/lobster.svg",
+    apple: "/lobster.svg",
+  },
 };
 
 export default function RootLayout({
